@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  cognito: {
+    userPoolId: '',
+    appClientId: '',
+    authFlowType: 'USER_SRP_AUTH',
+    redirectURI: '',
+    oauthDomain: '',
+    oauthScope: [],
+    cookieStorageDomain: 'localhost',
+    cookieExpiration: 0.0417,
+  },
 };
 
 /*
